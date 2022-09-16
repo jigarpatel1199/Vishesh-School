@@ -1,0 +1,394 @@
+body{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+h1 h2 h3 h4 h5 h6{
+	font-family: 'Just Another Hand', cursive;
+}
+html {
+    overflow-x: hidden;
+}
+/*==========header==========*/
+.menu .navbar-expand-lg.navbar-collapse {
+    justify-content: end;
+}
+.menu_back #collapsibleNavbar {
+    justify-content: end;
+}
+.menu_back nav.navbar.navbar-expand-lg {
+   background-image: url(../images/menu_i.png);
+    background-position: center;
+    background-size: cover;  
+}
+.menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    z-index: 9999;
+}
+.menu_back a.nav-link {
+    color: black;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;
+    font-weight: 400;
+}
+.menu_ct {
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.menu_ct h1 {
+    font-size: 60px;
+      font-family: 'Just Another Hand', cursive;
+      color: white;
+}
+.menu_ct p {
+    font-size: 18px;
+    color: white;
+}
+.menu_ct button.btn {
+    padding: 0px 22px;
+    background-color: #00aff0;
+    color: white;
+    font-size: 20px;
+     font-family: 'Just Another Hand', cursive;
+}
+/*=================about===============*/
+.a_img img {
+    height: 200px;
+}
+
+.center_text h3 {
+	font-size: 70px;
+	 font-family: 'Just Another Hand', cursive;
+}
+.a_img {
+    position: relative;
+    border: 3px solid #eb268f;
+    border-radius: 36px;
+}
+.a_text h5 {
+	position: absolute;
+	bottom: 0%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+}
+.a_img:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0;
+	border-radius: 30px;
+}
+.a_img:hover:before{
+	opacity: 0.5;
+}
+.about_slider.slick-initialized .slick-slide {
+    display: block;
+    padding: 10px;
+}
+
+.about_slider .slick-next:before, .slick-prev:before {
+    font-family: slick;
+    font-size: 40px;
+    color: black;
+    width: 50px;  	
+}
+.about_slider .slick-prev {
+    left: -50px;
+}
+/*===============school life==============*/
+.scl_bg {
+	background-image: url(../images/blue.png);
+	background-size: cover;
+	background-position: center;
+}
+.scl_text h1 {
+    font-size:60px;
+    color: white;
+    font-family: 'Just Another Hand', cursive;
+}
+.scl_bg .row {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+.scl_text button.btn.rounded-pill {
+    background-color: #faab34;
+    padding: 0px 25px;
+    color: white;
+    font-size: 30px;
+      font-family: 'Just Another Hand', cursive;
+}
+.scl_text {
+    padding: 0 30px;
+}
+.scl_text p {
+    font-size: 18px;
+}
+/*==========mission & vision=========*/
+.m_text {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.m_text h1{
+	font-size: 60px;
+	 font-family: 'Just Another Hand', cursive;
+}
+.m_text button {
+	color: white;
+	font-size: 25px;
+	font-family: 'Just Another Hand', cursive;
+	padding: 0 30px;
+	background-color: #00aff0;
+
+}
+/*============Happy Parents Say===========*/
+.h_right {
+    display: flex!important;
+    align-items: center;
+}
+.h_right h1 {
+    font-size: 60px;
+    font-family: 'Just Another Hand', cursive;
+    color: white; 
+}
+.gajjar h5 {
+    color: white;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 25px;
+}
+.h_p p{
+    color: white;
+}
+.happy_our {
+    width: 100%;
+}
+.h_p {
+    width: 59%;
+}
+.gajjar img {
+    margin: auto;
+}
+
+.gajjar {
+    width: 100%;
+}
+.h_back {
+   background-image: url(../images/pink.png);
+   background-position: center;
+   background-size: cover;
+}
+.happy_our1 img.img-fluid {
+    width: 50%;
+}
+.gajjar1 img {
+    width: 50%;
+}
+.happy_text .slick-next:before, .slick-prev:before {
+    font-family: slick;
+    font-size: 40px;
+    color: black;
+    width: 50px;
+}
+/*==============learning center=======*/
+.learn_text h1 {
+    font-size: 50px;
+      font-family: 'Just Another Hand', cursive;
+}
+.mx_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.l_back{
+    background-image: url(../images/learning.png);
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+}
+.team_men img{
+    border-radius: 50px;
+    border: 3px solid #eb268f;
+    width: 350px;
+    height: 350px;.
+
+}
+.team_men{
+    padding: 10px;
+    text-align: center;  
+}
+.team_img h3 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;
+}
+.team h1{
+     font-family: 'Just Another Hand', cursive;
+     font-size: 50px;
+}
+/*===============footer============*/
+.footer_back {
+    background-image: url(../images/black.png);
+    background-position: top;
+    background-size: cover;
+    
+}
+.f_btn button.btn.rounded-pill {
+    background-color: #00aff0;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+.f_nw h2 {
+    font-size: 30px;
+    font-family: 'Just Another Hand', cursive;
+    color: white;
+}
+.f_nw p {
+    color: white;
+}
+.last_f p{
+    color: white;
+}
+.last_back {
+    background-image: url(../images/lastfooter.png);
+    background-position: top;
+    background-size: cover;
+}
+.footer_text {
+    width: 50%;
+}
+
+/*====ovarlay====*/
+#lightbox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    display: none;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+body.overlay:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000a3;
+    z-index: 9;
+}
+body.overlay{
+   position: relative;
+   overflow: hidden;
+}
+#close-btn {
+    position: absolute;
+    right: 0;
+    top: -7%;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+/*=====responce======*/
+@media only screen and (min-width:992px) and (max-width:1024px){
+.menu_back a.nav-link {
+    font-size: 26px;
+    font-weight: 400;
+}
+.h_p {
+    width: 100%;
+}
+.footer_text {
+    width: 100%;
+}
+}
+@media only screen and (min-width:1025px) and (max-width:1366px){
+.menu_back a.nav-link {
+    font-size: 26px;
+    font-weight: 400;
+}
+.h_p {
+    width: 100%;
+}
+.footer_text {
+    width: 100%;
+}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+ .footer_text {
+    width: 100%;
+}
+.video_learn img{
+    width: 80% !important;
+}
+.menu_ct h1 {
+    font-size: 45px;
+    font-family: 'Just Another Hand', cursive;
+    color: white;
+}
+.menu_ct p {
+    font-size: 12px;
+    color: white;
+}
+.h_right h1 {
+    font-size: 44px;
+}
+.h_p {
+    width: 100%;
+}
+.team1 {
+    flex-wrap: wrap;
+}
+#demo img.img-fluid.w-100.h-100.d-block {
+    height: 363px !important;
+}
+#video-wrapper iframe#video {
+    width: 468px !important;
+    height: 387px !important;
+}
+}
+@media only screen and (max-width:767px){
+ 
+.footer_text {
+    flex-wrap: wrap;
+}
+.team1 {
+    flex-wrap: wrap;
+}
+.video_learn img{
+    width: 100% !important;
+}
+.menu_ct h1 {
+    font-size: 45px;
+
+}
+.menu_ct p {
+    font-size: 10px;
+    color: white;
+}
+.h_right h1 {
+    font-size: 30px;
+}
+.h_p {
+    width: 100%;
+}
+#demo img.img-fluid.w-100.h-100.d-block {
+    height: 363px !important;
+}
+#video-wrapper iframe#video {
+    width: 468px !important;
+    height: 387px !important;
+}
+}
